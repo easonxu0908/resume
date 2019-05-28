@@ -1,0 +1,72 @@
+body {
+    font-family: 微軟正黑體;
+}
+
+.personal-img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 160px;
+}
+
+.bg-cover {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 200px;
+}
+
+@media(max-width:992px){
+    .bg-cover{
+        height: 150px;
+    }
+}
+@media(max-width:400px){
+    .bg-cover{
+        height: 100px;
+    }
+}
+
+.skill-img {
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100px;
+}
+
+.github-img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s;
+}
+.github-img:hover {
+  
+    box-shadow: 1px 1px 10px black !important;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+.productCard {
+    transition: all 0.3s;
+}
+
+.productCard:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px black !important;
+    border-color: black;
+}
+
+#backTop {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    display: none;
+    z-index: 10;
+}
